@@ -40,6 +40,15 @@
             android:theme="@style/Theme.AppCompat.Light">
 
         </activity>
+        <activity
+            android:name=".EscrowApproverActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="ai ndroid.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

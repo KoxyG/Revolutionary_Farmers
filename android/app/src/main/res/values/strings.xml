@@ -1,6 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="titleText">Find Escrow</string>
     <string name="engagementId">Engagement ID</string>
     <string name="contractId">Contract ID</string>
     <string name="enterButton">Enter</string>
+    <string name="connect_wallet" tools:ignore="MissingTranslation">Connect Wallet</string>
+    <string name="escrow_approver" translatable="false">Escrow Approver</string>
 </resources>

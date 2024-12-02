@@ -52,4 +52,14 @@
         android:backgroundTint="@android:color/holo_blue_light"
         android:padding="12dp" />
 
+    <Button
+        android:id="@+id/connectWalletButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Wallet"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
 </LinearLayout>
